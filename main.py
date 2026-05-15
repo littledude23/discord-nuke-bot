@@ -29,4 +29,4 @@ async def nuclear_launch(ctx):
         print("Nuclear launch completed with errors:")
         for f in failed:
             print(f" - {f}")
-bot.run('MTUwNDk3NTg3MjQwNTI3ODk1MA.G_PDty.fx2j8399cE92L0Sg3l4oJMnhuFOCgA5vqy7v6o')
+bot.run(os.environ['DISCORD_TOKEN'])
